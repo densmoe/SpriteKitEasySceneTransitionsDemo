@@ -32,7 +32,7 @@ class GameScene:Scene {
     }
     
     func gameOverAnimated() {
-        let transition = SKTransition.crossFadeWithDuration(0.5)
+        let transition = SKTransition.crossFadeWithDuration(2)
         sceneDelegate.transitionToScene(MainMenuScene.self, transitionAnimation: transition)
     }
 }
